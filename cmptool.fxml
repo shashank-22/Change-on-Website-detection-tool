@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="550.0" style="-fx-background-color: #9ab9ea;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TextField fx:id="sln1" layoutX="339.0" layoutY="140.0" prefHeight="25.0" prefWidth="283.0" promptText="Enter starting Serial No." />
+      <Button fx:id="cmp" layoutX="361.0" layoutY="349.0" mnemonicParsing="false" onAction="#cmp" text="Compare" textFill="#0a0202" />
+      <Label layoutX="209.0" layoutY="144.0" text="Serial No. 1" />
+      <Label layoutX="209.0" layoutY="200.0" text="Serial No. 2" />
+      <Label layoutX="188.0" layoutY="256.0" text="Percentage Change" />
+      <TextField fx:id="pcb" layoutX="341.0" layoutY="252.0" prefHeight="25.0" prefWidth="104.0" promptText="Min. % required" />
+      <TextField fx:id="sln2" layoutX="339.0" layoutY="196.0" prefHeight="25.0" prefWidth="283.0" promptText="Enter starting Serial No." />
+      <Label layoutX="279.0" layoutY="41.0" prefHeight="28.0" prefWidth="222.0" style="-fx-background-color: #1fe0a9;" text="Website Comparision Tool">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="216.0" layoutY="312.0" prefHeight="17.0" prefWidth="48.0" text="Progress" />
+      <Label fx:id="prg" layoutX="344.0" layoutY="310.0" text="Not Started">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
