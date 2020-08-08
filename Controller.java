@@ -70,11 +70,11 @@ public class Controller implements Initializable
         stmt.setInt(2,sl2);
         ResultSet rows = stmt.executeQuery();
 
-        File fp_res = new File("C:\\Users\\Prince\\IdeaProjects\\intern\\src\\Result.html");
+        File fp_res = new File("C:\\Users\\Shashank\\IdeaProjects\\intern\\src\\Result.html");
         FileWriter fw_res = new FileWriter(fp_res);
 
         String kw="";
-        File fp = new File("C:\\Users\\Prince\\IdeaProjects\\intern\\src\\keyword.txt");
+        File fp = new File("C:\\Users\\Shashank\\IdeaProjects\\intern\\src\\keyword.txt");
         FileReader fr = new FileReader(fp);
         int temp;
         try
@@ -105,7 +105,7 @@ public class Controller implements Initializable
 
             URL url = new URL(url_st);
             String site = readUrl(url);
-            fp = new File("C:\\Users\\Prince\\IdeaProjects\\intern\\src\\website\\"+url_index+".txt");
+            fp = new File("C:\\Users\\Shashank\\IdeaProjects\\intern\\src\\website\\"+url_index+".txt");
             if(!fp.exists())
             {
                 fp.createNewFile();
@@ -179,7 +179,7 @@ public class Controller implements Initializable
                     if (flag == 0)
                         diff.add(word2[i]);
                 }
-                //fp = new File("C:\\Users\\Prince\\IdeaProjects\\intern\\src\\Result.html");
+                //fp = new File("C:\\Users\\Shashank\\IdeaProjects\\intern\\src\\Result.html");
                 //fw = new FileWriter(fp);
                 double perp = (word2.length-count)*100.0/word2.length;
                 if(perp>=per)
@@ -224,7 +224,7 @@ public class Controller implements Initializable
             }
         }
         fw_res.close();
-        EmailSend.SendEmail("C:\\Users\\Prince\\IdeaProjects\\intern\\src\\Result.html");
+        EmailSend.SendEmail("C:\\Users\\Shashank\\IdeaProjects\\intern\\src\\Result.html");
         prg.setText("Completed..!!");
     }
 
