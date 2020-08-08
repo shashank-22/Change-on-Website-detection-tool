@@ -15,7 +15,7 @@
       <Label layoutX="188.0" layoutY="256.0" text="Percentage Change" />
       <TextField fx:id="pcb" layoutX="341.0" layoutY="252.0" prefHeight="25.0" prefWidth="104.0" promptText="Min. % required" />
       <TextField fx:id="sln2" layoutX="339.0" layoutY="196.0" prefHeight="25.0" prefWidth="283.0" promptText="Enter starting Serial No." />
-      <Label layoutX="279.0" layoutY="41.0" prefHeight="28.0" prefWidth="222.0" style="-fx-background-color: #1fe0a9;" text="Website Comparision Tool">
+      <Label layoutX="279.0" layoutY="41.0" prefHeight="28.0" prefWidth="222.0" style="-fx-background-color: #1fe0a9;" text="Website Alert Tool">
          <font>
             <Font size="19.0" />
          </font></Label>
