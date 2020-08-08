@@ -16,11 +16,11 @@ public class EmailSend
         try
         {
             String host ="smtp.gmail.com" ;
-            String user = "princebittu43@gmail.com";
-            String pass = "9798961487@";
-            String to = "2015ucp1447@mnit.ac.in";
-            String from = "princebittu@gmail.com";
-            String subject = "UMC Advanced Tender Alert";
+            String user = "****@gmail.com";
+            String pass = "****";
+            String to = "***@gmail.com";
+            String from = "****@gmail.com";
+            String subject = "Changes detected alert";
             String messageText = "Wow ! You received a file.";
             boolean sessionDebug = false;
 
