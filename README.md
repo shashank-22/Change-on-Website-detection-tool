@@ -1,6 +1,7 @@
-# Change-on-Website-detection-tool
+# Web-Alert-Tool
+Tool that identify changes on website according to the specified keywords and notify users through e-mail.
+  
+### Setup
+ Requires `Java-8  JDK` or above.
 
-
-open project in IntelliJ(or can be ecilips) strip.java is main class. run the project.
-project is running on local host so connect it to your database accordingly.
-requirement Java-9 SDK and above 
+`javax.mail.jar.jar` and `JSoup Jar` are required that are included in lib directory.
